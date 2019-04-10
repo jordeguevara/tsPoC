@@ -1,6 +1,6 @@
 import app from "./app";
 
-const port = 4040;
+const port = process.env.PORT || '5000';
 
 app.listen(port, ()=> {
   console.log('Express server listening on port ' + port);
