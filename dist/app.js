@@ -16,7 +16,7 @@ class App {
         const router = express.Router();
         router.get('/', (request, response) => {
             response.status(200).send({
-                message: 'Typescript in node.js!'
+                message: 'Typescript in node!'
             });
         });
         this.app.use('/', router);
